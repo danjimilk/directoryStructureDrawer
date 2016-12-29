@@ -1,0 +1,23 @@
+.directoryStructure {
+  display: inline-block;
+}
+.directoryStructure ul {
+  padding-left: 0em;
+}
+.directoryStructure li {
+  padding: 0px 0px 0px 35px;
+  line-height: 2em;
+  /* reset styles (optional): */
+  list-style: none;
+  margin: 0px;
+}
+.directoryStructure .directory {
+  font-weight: bold;
+  background: url(http://collab.lge.com/main/download/attachments/486731624/folder.png) no-repeat left top;
+  background-size: 2em;
+}
+.directoryStructure .file {
+  cursor: pointer;
+  background: url(http://collab.lge.com/main/download/attachments/486731624/file.png) no-repeat left top;
+  background-size: 2em;
+}
